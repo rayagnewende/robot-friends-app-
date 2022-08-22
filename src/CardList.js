@@ -12,7 +12,7 @@ function CardList({ robots}) {
   })
 
   return (
-    <div className="flex flex-wrap">
+    <div className="flex flex-wrap pa5">
         {
           cardList
         }

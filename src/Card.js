@@ -1,12 +1,12 @@
 import React from 'react'
 
-function Card({name, email, imageUrl}) {
+function Card({name, email, imageUrl,onChangeField}) {
   return (
-    <div className="outline w-25 grow bw-2 shadow-5 pa2 bg-light-green">
+    <div className="outline w-25 grow bw-2 shadow-5 pa2  bg-light-green">
         <img src={imageUrl} alt={name} />
-        <div>
+        <div >
             <h2>{name}</h2>
-            <h3>{email}</h3>
+            <h5>{email}</h5>
         </div>
     </div>
   )
